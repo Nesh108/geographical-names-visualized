@@ -6,16 +6,16 @@ public class Continent {
 
 	public String Name;
 	public ArrayList<Country> Countries;
-	
+
 	public Continent(String name) {
 		this(name, new ArrayList<Country>());
 	}
-	
+
 	public Continent(String name, ArrayList<Country> countries) {
 		Name = name;
 		Countries = countries;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Continent [Name=" + Name + ", Countries=" + Countries + "]";
@@ -45,6 +45,5 @@ public class Continent {
 			return false;
 		return true;
 	}
-	
-	
+
 }

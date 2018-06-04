@@ -1,25 +1,25 @@
 package com.kulplex.geo.names.visualization;
 
 import java.util.ArrayList;
+
 public class Country {
-	
+
 	public String Name;
 	public ArrayList<Place> Places;
 
 	public Country(String name) {
 		this(name, new ArrayList<Place>());
 	}
-	
+
 	public Country(String name, ArrayList<Place> places) {
 		Name = name;
 		Places = places;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Country [Name=" + Name + ", Places=" + Places + "]";
 	}
-
 
 	@Override
 	public int hashCode() {
@@ -45,6 +45,5 @@ public class Country {
 			return false;
 		return true;
 	}
-	
-	
+
 }

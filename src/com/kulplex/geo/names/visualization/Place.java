@@ -39,6 +39,5 @@ public class Place {
 			return false;
 		return true;
 	}
-	
-	
+
 }
