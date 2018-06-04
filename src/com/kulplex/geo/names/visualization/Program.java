@@ -8,9 +8,9 @@ public class Program {
 
 	static String filePath = "data/allCountries.txt";
 	static ArrayList<String> allowedFeatures = new ArrayList<String>(Arrays.asList("A", "P"));
-	static String continentFilter = "Oceania";
+	static String continentFilter = null;
 	static int delimitCount = 3;
-	static int elementsCountFilter = 100000;
+	static int elementsCountFilter = Integer.MAX_VALUE;
 
 	public static void main(String[] args) {
 		FileParser fp = new FileParser(filePath);
